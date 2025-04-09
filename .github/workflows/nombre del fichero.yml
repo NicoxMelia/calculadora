@@ -17,7 +17,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
 
-  Test_funcion_dividir:
+  Test_calculadora:
    
     runs-on: ubuntu-latest
 
