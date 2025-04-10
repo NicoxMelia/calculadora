@@ -1,7 +1,7 @@
 name: Pruebas de Calculadora
 
 on:
-  pull_request:
+  push:
     branches:
       - develop  # Solo se ejecuta si hay pull request a esta rama
 
