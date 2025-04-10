@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   Test_calculadora:
-    name: Ejecutar pruebas de calculadora
+    name: Testear calculadora
     runs-on: ubuntu-latest
 
     steps:
