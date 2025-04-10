@@ -1,9 +1,9 @@
 name: Pruebas de Calculadora
 
 on:
-  push:
+  pull_request:
     branches:
-      - develop  # Solo se ejecuta si hay push a esta rama
+      - develop  # Solo se ejecuta si hay pull request a esta rama
 
 jobs:
   test:
