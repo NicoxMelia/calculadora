@@ -1,9 +1,12 @@
-name: Test_calculadora
+name: Pruebas de Calculadora
 
-on: [push]
+on:
+  push:
+    branches:
+      - develop  # Solo se ejecuta si hay push a esta rama
 
 jobs:
-  Test_calculadora:
+  test:
     name: Testear calculadora
     runs-on: ubuntu-latest
 
